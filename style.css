@@ -106,13 +106,15 @@ img {
     border:none;
     border-radius:0.2em;
     padding:0.5em;
+    font-size: 0.9rem;
 }
 .brideAccount{
     background-color:#F29661;
     color: #fff;
     border:none;
     border-radius:0.2em;
-    padding:0.5em;
+    padding:0.5rem;
+    font-size: 0.9rem;
 }
 
 .btnGroom{
