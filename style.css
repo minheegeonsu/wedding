@@ -99,3 +99,58 @@ img {
         padding: 40px 20px;
     }
 }
+
+.groomAccount{
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+.brideAccount{
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+
+.btnGroom{
+    top:50%;
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+.btnGroomFather{
+/*    top:50%;*/
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+.btnBride{
+/*    top:50%;*/
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+
+.btnBrideFather{
+/*    top:50%;*/
+    background-color:#F29661;
+    color: #fff;
+    border:none;
+    border-radius:0.2em;
+    padding:0.5em;
+}
+
+
+
+.mw {position:fixed;_position:absolute;top:0;left:0;width:100%;height:100%;display:none;}
+.mw .bg {position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50)}
+.mw .fg {position:absolute;top:50%;left:50%;width:360px;height:160px;margin:-100px 0 0 -200px;padding:20px;border:3px solid #ccc;background:#fff;}
