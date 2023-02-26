@@ -1,3 +1,4 @@
+<!-- local apache -->
 <!DOCTYPE html>
 <html lang="ko">
 	<head>
@@ -6,24 +7,28 @@
 		<link rel="canonical" href="https://sooyeonsungdoo.github.io"/>
 		<meta name="twitter:url" content="https://sooyeonsungdoo.github.io"/>
 		<meta name="og:url" content="https://sooyeonsungdoo.github.io"/>
-		<title>건수와 민희의 결혼식에 초대합니다</title>
+		<title>🤵🤵🏻건수와 👰👰🏻민희의 결혼식에 초대합니다</title>
 		<meta name="twitter:title" content="건수와 민희의 결혼식에 초대합니다"/>
 		<meta name="og:title" content="건수와 민희의 결혼식에 초대합니다"/>
 		<meta name="description" content="2023년 5월 14일 아모리스역삼"/>
 		<meta name="twitter:description" content="2023년 5월 14일 아모리스 역삼"/>
 		<meta name="og:description" content="2023년 5월 14일 아모리스 역삼"/>
-		<meta name="twitter:card" content="함께할 때 비로소 꺠닫는 사랑임을 영원히 기억하며 살겠습니다"/>
+		<meta name="twitter:card" content="함께할 때 비로소 깨닫는 사랑임을 영원히 기억하며 살겠습니다"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link rel="stylesheet" href="/wedding/style.css" type="text/css"/>
-		<style>
+		 <link rel="stylesheet" href="/wedding/style.css" type="text/css"/> 
+		 <!-- <link rel="stylesheet" href="/style.css" type="text/css"/> -->
 
+		<style>
+			.mw {position:fixed;_position:absolute;top:0;left:0;width:100%;height:100%;display:none;}
+.mw .bg {position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50)}
+.mw .fg {position:absolute;top:50%;left:50%;width:360px;height:160px;margin:-100px 0 0 -200px;padding:20px;border:3px solid #ccc;background:#fff;}
 		</style>
 	</head>
 	<body>
 		<div class="imageContainer">
 		<img src="img/img1.jpg" id="mainImage">
 		</div>
-		<br>
+		<p><button onclick="swalClicked()" type="button">신랑에게 마음 전달하기</button></p>
 		<h1> 민희와 건수의 결혼식에 초대합니다 </h1>
 
 		<div id="parents">
@@ -63,12 +68,7 @@
 		7번 출구로 나오시면 안내 봉사자가 있습니다. 확인 <br>
 		주차 이용 시 네시간 무료 주차 제공됩니다. 확인
 		</p>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<br><br><br><br><br><br>
 		<a href="https://www.icloud.com/sharedalbum/#B16JtdOXm8E7cFI" target="_blank">
 			<div class="grid-container">
 				<img class="grid-item" src="img/thumbnail1.jpg">
@@ -94,35 +94,45 @@
 <!-- 			까리따스분과 이연희 베네란다 (<a href="tel:010-5380-4747">010-5380-4757</a>)<br>
 			후원계좌: 신협 137-002-256160 이연희  -->
 			<!-- 마음 보내실 곳 -->
+		
+
+		<!-- 모달 -->
+			<p><button type="button" onClick="document.getElementById('mw_temp').style.display='block'">Open</button></p>
+ 
+ 
+<div id="mw_temp" class="mw">
+    <div class="bg"><!--이란에는 내용을 넣지 마십시오.--></div>
+    <div class="fg">
+        <p>모달창 예제입니다.body 태그앞에 넣으십시오.<button onclick="document.getElementById('mw_temp').style.display='none'" type="button">창닫기</button></p>
+
+    </div>
+</div>
 			<br>
 		</footer>
+
 		<br>
 
-<!-- <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script> -->
 
-<!-- <script charset="UTF-8">
-	new daum.roughmap.Lander({
-		"timestamp" : "1597653753785",
-		"key" : "2zok9",
-		"mapWidth" : "375",
-		"mapHeight" : "400"
-	}).render();
-</script>	
- -->
 
-<!-- 
+
  	<textarea id="textArea">ccc JavaScript 클립보드 복사하는 방법(Clipboard API, clipboad.js)</textarea>
     <button class="btn" data-clipboard-target="#textArea">Copy</button>
 
-    <button class="btn2" onclick="alertDialogBox()">마음 보내실 곳</button> -->
+    <!-- <button class="btn2" onclick="alertDialogBox()">마음 보내실 곳</button> -->
 
 	<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 	    
 	<!-- clipboard.js cdn 추가 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script charset="UTF-8">
 		new daum.roughmap.Lander({
 			"timestamp" : "1677079035092",
@@ -134,8 +144,8 @@
 
 	<!-- 라이브러리 실행 -->
     <script>
-        var clipboard = new ClipboardJS('.btn');
-      
+        var clipboard = new ClipboardJS('.btnGroom');
+      var clipboard = new ClipboardJS('.btnGroomFather');
         clipboard.on('success', function(e) {
             console.log(e);
         });
@@ -149,7 +159,43 @@
     	function alertDialogBox(){
     		swal("asd");
     	}
+
+    	// click on 라벨 추가 모달 열기
+		$(document).on('click', '#add-btn', function (e) {
+		  console.log("click event");
+		  $('#modal').addClass('show');
+
+		});
+
+		// 모달 닫기
+		$(document).on('click', '#close_btn', function (e) {
+		  console.log("click event");
+		  $('#modal').removeClass('show');
+
+		});
+
+
+		function swalClicked(){
+			// swal("asd");
+			Swal.fire({
+  title: '신랑측 마음 전하실 곳',
+  html: '신랑: 홍건수 <span id="groom">64970201465573</span> 국민 <button class="btnGroom" data-clipboard-target="#groom">복사</button><br><br>신랑 혼주: 홍영득 <span id="groomFather">290010001501</span> 국민 <button class="btnGroomFather" data-clipboard-target="#groomFather">복사</button>',
+  showClass: {
+    popup: 'animate__animated animate__fadeInDown'
+  },
+  hideClass: {
+    popup: 'animate__animated animate__fadeOutUp'
+  },
+  confirmButtonText:'닫기',
+  confirmButtonColor: '#994C00'
+})
+		}
     </script>
+
+
+
+
+
 	
 	</body>
 </html>
