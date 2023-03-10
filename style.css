@@ -102,7 +102,7 @@ img {
 
 .groomAccount{
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5rem;
@@ -110,7 +110,7 @@ img {
 }
 .brideAccount{
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5rem;
@@ -120,7 +120,7 @@ img {
 .btnGroom{
     top:50%;
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5em;
@@ -128,7 +128,7 @@ img {
 .btnGroomFather{
 /*    top:50%;*/
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5em;
@@ -136,7 +136,7 @@ img {
 .btnBride{
 /*    top:50%;*/
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5em;
@@ -145,7 +145,7 @@ img {
 .btnBrideFather{
 /*    top:50%;*/
     background-color:#D5D5D5;
-/*    color: #fff;*/
+    color: #000000;
     border:none;
     border-radius:0.2em;
     padding:0.5em;
