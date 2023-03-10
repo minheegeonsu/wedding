@@ -102,7 +102,7 @@ img {
     border:none;
     border-radius:2px;
     padding:5px;
-    font-size: 11px;
+    font-size: 14px;
 }
 .brideAccount{
     background-color:#D5D5D5;
@@ -110,11 +110,11 @@ img {
     border:none;
     border-radius:2px;
     padding:5px;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .btnGroom{
-    top:50%;
+/*    top:50%;*/
     background-color:#D5D5D5;
     color: #000000;
     border:none;
