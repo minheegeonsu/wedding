@@ -87,11 +87,13 @@
 		  </div>
 		</a>
 
-		<h2 style="color: #8a8a8a; font-weight: normal;"> 신부신랑에게 연락하기 </h2>
-		<p>
-			👰🏻 신부에게 연락하기: <a href="tel:010-2690-3624" style="text-decoration: none;">📞 </a>   <a href="sms:010-2690-3624" style="text-decoration:none;"> ✉️</a> <br><button class="brideAccount" onclick="swalClickedBride()" type="button">신부측 마음 보내실 곳</button><br><br>
-			🤵🏻 신랑에게 연락하기: <a href="tel:010-7104-2177" style="text-decoration: none;">📞 </a>   <a href="sms:010-7104-2177" style="text-decoration:none;"> ✉️ </a> <br><button class="groomAccount" onclick="swalClicked()" type="button">신랑측 마음 보내실 곳</button> 
-		</p>
+		<h2 style="color: #8a8a8a;"> 마음 전하실 곳 </h2>
+		<!-- <p> -->
+			<div style="display: flex; flex-direction: row;">
+			<div style="margin-left: auto; margin-right:2rem">👰🏻 신부에게 연락하기: <a href="tel:010-2690-3624" style="text-decoration: none;">📞 </a>   <a href="sms:010-2690-3624" style="text-decoration:none;"> ✉️</a> <br><button class="brideAccount" onclick="swalClickedBride()" type="button">신부측 계좌번호</button><br><br></div>
+			<div style="margin-right: auto; margin-left:2rem">🤵🏻 신랑에게 연락하기: <a href="tel:010-7104-2177" style="text-decoration: none;">📞 </a>   <a href="sms:010-7104-2177" style="text-decoration:none;"> ✉️ </a> <br><button class="groomAccount" onclick="swalClicked()" type="button">신랑측 계좌번호</button></div>
+			</div>
+		<!-- </p> -->
 
 	<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 	    
@@ -104,8 +106,8 @@
 		new daum.roughmap.Lander({
 			"timestamp" : "1677079035092",
 			"key" : "2dtxk",
-			"mapWidth" : "375",
-			"mapHeight" : "400"
+			"mapWidth" : "250",
+			"mapHeight" : "300"
 		}).render();
 	</script>
 
@@ -125,8 +127,9 @@
     <script>
 		function swalClicked(){
 			Swal.fire({
-			  title: '신랑측 마음 전하실 곳',
-			  html: '홍영득 <span id="groomFather">290010001501</span> 국민 <button class="btnGroomFather" data-clipboard-target="#groomFather">복사</button><br><br>홍건수 <span id="groom">64970201465573</span> 국민 <button class="btnGroom" data-clipboard-target="#groom">복사</button>',
+			  // title: '신랑측 마음 전하실 곳',
+			  title: '&nbsp;',
+			  html: '홍영득 <span id="groomFather">290010001501</span> KB국민은행 <button class="btnGroomFather" data-clipboard-target="#groomFather">복사하기</button><br><br>홍건수 <span id="groom">64970201465573</span> KB국민은행 <button class="btnGroom" data-clipboard-target="#groom">복사하기</button>',
 			  showClass: {
 			    popup: 'animate__animated animate__fadeInDown'
 			  },
@@ -134,14 +137,15 @@
 			    popup: 'animate__animated animate__fadeOutUp'
 			  },
 			  confirmButtonText:'닫기',
-			  confirmButtonColor: '#CE723D'
+			  confirmButtonColor: '#D5D5D5'
 			})
 		}
 
 		function swalClickedBride(){
 			Swal.fire({
-			  title: '신부측 마음 전하실 곳',
-			  html: '이용성 <span id="brideFather">67899</span> 국민 <button class="btnBrideFather" data-clipboard-target="#brideFather">복사</button><br><br>이민희 <span id="bride">12345</span> 국민 <button class="btnBride" data-clipboard-target="#bride">복사</button>',
+			  // title: '신부측 마음 전하실 곳',
+				title: '&nbsp;',
+			  html: '이용성 <span id="brideFather">3333054496783</span> 카카오뱅크 <button class="btnBrideFather" data-clipboard-target="#brideFather">복사하기</button><br><br>이민희 <span id="bride">92690362461</span> KB국민은행 <button class="btnBride" data-clipboard-target="#bride">복사하기</button>',
 			  showClass: {
 			    popup: 'animate__animated animate__fadeInDown'
 			  },
@@ -149,7 +153,7 @@
 			    popup: 'animate__animated animate__fadeOutUp'
 			  },
 			  confirmButtonText:'닫기',
-			  confirmButtonColor: '#CE723D'
+			  confirmButtonColor: '#D5D5D5'
 			})
 		}
     </script>
