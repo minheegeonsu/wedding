@@ -10,10 +10,10 @@
 
 /* Text Elements */
 h1,h2 {
-    margin: 2rem;
+    margin: 5px;
 }
 h1 {
-/*    font-size: 1.7em;*/
+    font-size: 20px;
     margin-bottom: 20px;
 }
 p {
