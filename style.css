@@ -15,6 +15,9 @@ h1 {
     font-size: 23px;
     margin-bottom: 20px;
 }
+h2{
+    font-size: 15px;
+}
 p {
     line-height:1.8;
     margin-bottom: 10px;
@@ -98,7 +101,7 @@ img {
     border:none;
     border-radius:2px;
     padding:5px;
-    font-size: 10px;
+    font-size: 11px;
 }
 .brideAccount{
     background-color:#D5D5D5;
@@ -106,7 +109,7 @@ img {
     border:none;
     border-radius:2px;
     padding:5px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .btnGroom{
